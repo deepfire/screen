@@ -6007,8 +6007,6 @@ char *AddWindows(WinMsgBufContext *wmbc, int len, int flags, int where)
 
 		cmd = win->w_title;
 		l = strlen(cmd);
-		if (l > 20)
-			l = 20;
 		if (s - buf + l > len - 24)
 			break;
 		if (s > buf || (flags & 4)) {
