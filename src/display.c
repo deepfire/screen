@@ -52,6 +52,8 @@
 #include "tty.h"
 #include "winmsg.h"
 
+#define UTF8 8
+
 /* CSI parsing status */
 enum {
 	CSI_PB=0, CSI_PX=1, CSI_PY=2, CSI_DONE=3,

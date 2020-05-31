@@ -32,6 +32,8 @@
 #include "fileio.h"
 #include "misc.h"
 
+#define UTF8 8
+
 static int encmatch(char *, char *);
 static int recode_char(int, int, int);
 static int recode_char_to_encoding(int, int);

@@ -68,6 +68,8 @@
 #include "viewport.h"
 #include "winmsg.h"
 
+#define UTF8 8
+
 
 static int CheckArgNum(int, char **);
 static void ClearAction(struct action *);

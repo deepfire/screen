@@ -36,6 +36,8 @@
 #include "misc.h"
 #include "tty.h"
 
+#define UTF8 8
+
 /*
  * Layer subsystem.
  *
